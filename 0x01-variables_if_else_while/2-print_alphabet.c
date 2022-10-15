@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
-*main: Prints alphabets in lower case
-*Return: value is always 0
+*main - Prints alphabets in lower case
+*Return: value is always 0 (Success)
 */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= z; ++c)
+char ch[26] = "abcdefghijklmnopqrstuvwxyz";
+int c;
+for (c = 0; c < 26; c++)
 {
-putchar(c);
+putchar(ch[c]);
 }
 putchar('\n');
 return (0);
