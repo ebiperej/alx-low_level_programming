@@ -1,13 +1,15 @@
 #include <stdio.h>
 /**
-*Main function goes here
-*Return value is always 0
+*main: Prints alphabets in lower case
+*Return: value is always 0
 */
 int main(void)
 {
 char c;
-for (c = 'a'; c <= z; c++)
+for (c = 'a'; c <= z; ++c)
+{
 putchar(c);
+}
 putchar('\n');
 return (0);
 }
