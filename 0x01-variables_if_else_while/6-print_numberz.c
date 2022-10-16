@@ -8,7 +8,7 @@ int main(void)
 int i = 48;
 while (i < 58)
 {
-printf("%d", i);
+putchar(i);
 i++;
 }
 putchar('\n');
