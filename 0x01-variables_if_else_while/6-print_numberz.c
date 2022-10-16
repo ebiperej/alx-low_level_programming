@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-int i = 0;
-while (i < 10)
+int i = 48;
+while (i < 58)
 {
 printf("%d", i);
 i++;
