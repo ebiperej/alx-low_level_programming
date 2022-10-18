@@ -8,10 +8,9 @@ int main(void)
 {
 char w[] = "_putchar\n";
 int j = 0;
-char c;
 while (j <= 8)
 {
-c = w[j];
+char c = w[j];
 _putchar(c);
 j++;
 }
