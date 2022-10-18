@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char c[] = "_putchar\n";
+char w[] = "_putchar\n";
 int j = 0;
 while (j <= 8)
 {
-w = c[j]
-_putchar(w);
+c = w[j]
+_putchar(c);
 j++
 }
 return (0);
