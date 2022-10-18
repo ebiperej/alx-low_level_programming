@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char w[] = "_putchar\n";
+char w[] = "_putchar";
 int j = 0;
 while (j <= 8)
 {
@@ -14,5 +14,6 @@ char c = w[j];
 _putchar(c);
 j++;
 }
+_putchar('\n');
 return (0);
 }
