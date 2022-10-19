@@ -1,5 +1,8 @@
 #include "main.h"
+<<<<<<< HEAD
 void print_alphabet(void);
+=======
+>>>>>>> 27598c097008ac5d27273c401fcdc568958858df
 /**
  * main - entry point
  * Description: Prints _putchar with _putchar
