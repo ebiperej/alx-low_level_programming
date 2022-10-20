@@ -38,12 +38,3 @@ printf("%d\n", n);
 }
 printf("\n");
 }
-/**
- * main - Entry function
- * Return: returns natural numbers to 98
- */
-int main(void)
-{
-print_to_98(159);
-return (0);
-}
