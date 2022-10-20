@@ -4,8 +4,9 @@
  * @n: number to be returned
  * Return: the absolute value of the inputed number
  */
-int _abs(int n)
+int _abs(int)
 {
+int n;
 if (n < 0)
 {
 n *= -1;
