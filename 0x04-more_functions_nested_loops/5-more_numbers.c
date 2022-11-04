@@ -12,6 +12,7 @@ while (i <= 10)
 	{
 		_putchar(j);
 		j++;
+		_putchar('\n');
 	}
 	i++;
 }
