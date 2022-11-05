@@ -9,6 +9,7 @@ void print_square(int size)
 	if (size > 0)
 	{
 		int hon, vert;
+
 		for (hon = 0; hon < size; hon++)
 		{
 			vert = 0;
@@ -20,5 +21,4 @@ void print_square(int size)
 			_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
