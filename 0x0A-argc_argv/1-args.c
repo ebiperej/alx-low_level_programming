@@ -11,17 +11,6 @@
 
 int main(int argc, char *argv[])
 {
-	int index;
-
-	if (argc > 0)
-	{
-		int sum;
-
-		for (index = 0; index < argc; index++)
-			sum = argc + 1;
-			printf("%d\n", sum);
-	}
-	else
-		printf("No argument provided\n");
-return (0);
+	printf("%d", argc - 1);
+	return (0);
 }
