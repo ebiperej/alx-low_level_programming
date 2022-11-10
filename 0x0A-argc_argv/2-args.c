@@ -21,5 +21,6 @@ int main(int argc, char *argv[])
 	}
 	else
 		printf("No arguments provided");
+	printf("\n");
 	return (0);
 }
