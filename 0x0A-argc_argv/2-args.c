@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 		}
 	}
 	else
-		printf("No arguments provided");
-	printf("\n");
+		printf("No arguments provided\n");
 	return (0);
 }
